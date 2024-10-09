@@ -9,9 +9,8 @@
     ```bash
     docker-compose up -d
    
-3. Перейдите в директорию app и установите зависимости:
+3. Установите зависимости:
     ```bash
-    cd app
     docker-compose run --rm composer install
 
 4. Примените миграции:
